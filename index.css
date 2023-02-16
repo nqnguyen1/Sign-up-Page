@@ -55,10 +55,11 @@ body {
 
 #logoTxt {
     font-family: myFont;
-    font-size: 6rem;
+    font-size: 60px;
     color: white;
 }
 
+/* ----------------------------------------- */
 #ad {
     font-size: 1.5rem;
     text-align: center;
@@ -133,4 +134,36 @@ button {
 }
 
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    #container {
+        flex-direction: row;
+    }
+
+    #left {
+        height: 100%;
+        width: 70%;
+        align-items: flex-start;
+    }
+
+    #logo {
+        max-width: 20%;
+
+    }
+
+    #logoDiv {
+        width: 100%;
+        height: auto;
+        margin-top: 30%;
+
+    }
+
+    #ad {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    fieldset {
+        flex-direction: row;
+
+    }
+}
