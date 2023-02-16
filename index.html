@@ -12,11 +12,66 @@
 <body>
 
     <div id="container">
-        <div id="logoBG">
-            <img id='logo' src="logo.png" alt="">
+        <div id="left">
+            <div id="logoDiv">
+                <img id='logo' src="logo.png" alt="">
+                <p id="logoTxt"> ODIN </p>
+            </div>
         </div>
-        <div> This is not a real online service! You know you need something like this in your life to help you realize
-            your deepest dreams. Sign up now to get started. You know you want to.</div>
+
+        <div id="right">
+            <div id="sec1">
+                <p id='ad'> This is not a real online service! You know you need something like this in your life to
+                    help
+                    you
+                    realize
+                    your deepest dreams. <br><br> Sign up now to get started. <br> You know you want to.</p>
+            </div>
+            <div id="sec2">
+                <form action="" id="my-form">
+                    <h3>Let's do this!</h3>
+                    <fieldset>
+                        <div class="formGrid">
+                            <label for="fName">First Name</label>
+                            <input type="text" id="fName">
+                        </div>
+                        <div class="formGrid">
+                            <label for="lName">Last Name</label>
+                            <input type="text" id="lName">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="formGrid">
+                            <label for="mail">Email</label>
+                            <input type="email" id="mail">
+                        </div>
+                        <div class="formGrid">
+                            <label for="num">Number</label>
+                            <input type="text" id="num">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="formGrid">
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass">
+                        </div>
+                        <div class="formGrid">
+                            <label for="cPass">Confirm Password</label>
+                            <input type="password" id="cPass">
+                        </div>
+                    </fieldset>
+
+
+                </form>
+            </div>
+
+            <div id="sec3">
+                <button type="submit" form="my-form">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
     </div>
 
 </body>
